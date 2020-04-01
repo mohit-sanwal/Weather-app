@@ -57,7 +57,34 @@ body,
     
 }
 
-@media only screen and (min-device-width: 320px) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 416px),
+screen and (min-device-height: 640px) and (max-device-height: 846px)  { 
+    .swiper {
+         height: 580px !important;
+         margin-top: 23px !important;
+     }
+
+     .swiper-wrapper {
+        width: 0px !important;
+    }
+ 
+     .swiper .swiper-slide {
+         height: 119px !important;
+     }
+
+     .imgPreview {
+         height: 77px !important;
+     }
+
+     .empty-data {
+        -webkit-transform: translate(14%, -50%) !important;
+        transform: translate(5%, -50%) !important;
+        margin-top: 87% !important;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
     .empty-data img {
         width: 300px;
      }
@@ -81,20 +108,20 @@ body,
      }
 
     .empty-data {
-        -webkit-transform: translate(14%, -50%);
-        transform: translate(14%, -50%);
-        margin-top: 87%;
+        -webkit-transform: translate(14%, -50%) !important;
+        transform: translate(5%, -50%) !important;
+        margin-top: 87% !important;
     }
 }
 
 
-@media only screen and (width: 411px) and (max-height: 740px) { 
+// @media only screen and (width: 411px) and (max-height: 740px) { 
 
-    .swiper {
-        height: 600px !important;
-        margin-top: 50px !important;
-    }
-}
+//     .swiper {
+//         height: 600px !important;
+//         margin-top: 50px !important;
+//     }
+// }
 
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -113,35 +140,35 @@ body,
 
 }
 
-@media screen and (width: 375px) and (min-height: 812px) { 
-    .swiper {
-        height: 700px !important;
-        margin-top: 50px !important;
-    }
+// @media screen and (width: 375px) and (min-height: 812px) { 
+//     .swiper {
+//         height: 700px !important;
+//         margin-top: 50px !important;
+//     }
 
-    .imgPreview {
-        height: 95px !important;
-    }
+//     .imgPreview {
+//         height: 95px !important;
+//     }
 
-    .swiper-wrapper {
-        width: 0px !important;
-    }
-}
+//     .swiper-wrapper {
+//         width: 0px !important;
+//     }
+// }
 
-@media only screen and (width: 411px) and (min-height: 823px) { 
-    .swiper {
-        height: 712px !important;
-        margin-top: 50px !important;
-    }
+// @media only screen and (width: 411px) and (min-height: 823px) { 
+//     .swiper {
+//         height: 712px !important;
+//         margin-top: 50px !important;
+//     }
 
-    .imgPreview {
-        height: 95px !important;
-    }
+//     .imgPreview {
+//         height: 95px !important;
+//     }
 
-    .swiper-wrapper {
-        width: 0px !important;
-    }
-}
+//     .swiper-wrapper {
+//         width: 0px !important;
+//     }
+// }
 
 
 @media only screen and (min-width: 760px) and (max-height: 1024px) { 
