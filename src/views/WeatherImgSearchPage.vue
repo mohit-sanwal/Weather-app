@@ -341,8 +341,8 @@ export default {
 }
 
 .empty-data {
-  transform: translate(7%, -50%);
-  margin-top: 88%;
+  transform: translate(14%, -50%);
+  margin-top: 30%;
 }
 
 .image-container {
@@ -474,7 +474,21 @@ h3 {
         transform: translate(35%, -50%) !important;
         margin-top: 18% !important;
     }
+
+    .modal-container {
+         width: 33% !important;
+     }
+
   }
+
+   @media screen and (min-width: 320px) {
+       .empty-data[data-v-39d055c0] {
+          transform: translate(14%, -50%);
+          margin-top: 90%;
+        }
+   }
+
+ 
 
   @media only screen and (min-device-width: 320px) and (max-device-height: 568px) { 
     .empty-data img {
@@ -529,6 +543,27 @@ h3 {
      .swiper .swiper-slide {
          height: 134px !important;
      }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 416px),
+screen and (min-device-height: 640px) and (max-device-height: 846px)  { 
+    .swiper {
+         height: 580px !important;
+         margin-top: 9px !important;
+     }
+
+     .swiper-wrapper {
+        width: 0px !important;
+    }
+ 
+     .swiper .swiper-slide {
+         height: 119px !important;
+     }
+
+     .imgPreview {
+         height: 77px !important;
+     }
+
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 846px) { 
