@@ -1,0 +1,20 @@
+{
+  "name": "StoryBoard",
+  "short_name": "StoryBoard",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "background_color": "#0E0D35",
+  "theme_color": "#0E0D35"
+}
