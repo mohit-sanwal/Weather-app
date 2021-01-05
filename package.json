@@ -5,7 +5,7 @@
   "main": ".eslintrc.js",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "chart.js": "^2.9.3",
     "node-waves": "^0.7.6",
     "register-service-worker": "^1.6.2",
