@@ -28,7 +28,7 @@
     "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "^5.14.1",
     "eslint-plugin-vue": "^5.2.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.6.7"
   },
